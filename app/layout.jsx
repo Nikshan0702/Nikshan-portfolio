@@ -1,10 +1,10 @@
 import './globals.css'
-import { Newsreader, IBM_Plex_Sans } from 'next/font/google'
+import { Playfair_Display, IBM_Plex_Sans } from 'next/font/google'
 
-const newsreader = Newsreader({
+const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-serif',
-  weight: ['300', '400', '500', '600'],
+  weight: ['400', '500', '600', '700'],
   display: 'swap',
 })
 
@@ -38,7 +38,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${plexSans.variable} ${newsreader.variable} font-sans bg-white text-black antialiased`}>
+      <body className={`${plexSans.variable} ${playfair.variable} font-sans bg-white text-black antialiased`}>
         {children}
       </body>
     </html>

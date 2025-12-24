@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Container from './Container'
 import Section from './Section'
-import kfmLogo from '../Projectsimages/kfmlogo.jpg'
-import dattreoLogo from '../Projectsimages/14.JPG'
-import medicoLogo from '../Projectsimages/medico.png'
+import kfmLogo from '../Projects images/kfmlogo.jpg'
+import dattreoLogo from '../Projects images/14.jpg'
+import medicoLogo from '../Projects images/medico.png'
 
 
 export default function About() {
